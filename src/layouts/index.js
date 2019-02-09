@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import './index.scss';
 
 const TemplateWrapper = () => (
@@ -14,7 +15,8 @@ const TemplateWrapper = () => (
       ]}
     />
 
-    <Header name="Gatsby" />
+    <Header name="Header" />
+    <Footer name="Footer" />
   </div>
 );
 

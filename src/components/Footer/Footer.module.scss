@@ -1,0 +1,39 @@
+@import '../../styles/global.scss';
+
+.footer {
+  background: #333;
+  width: 100%;
+  height:70px;
+  // margin-bottom: 1.45rem;
+  text-align: center;
+  padding-top:1.5rem;
+  color: $textColor;
+  border-radius: 0 0 10px 10px
+}
+
+.divider {
+  background: #333;
+  margin: auto;
+  width: 2px;
+  height:45px;
+  display: flex;
+  margin-bottom: 2px;
+  // padding: 1.45rem 1.0875rem;
+}
+
+.circle {
+  background: #333;
+  width: 10px;
+  height: 10px;
+  margin: auto;
+  border-radius: 50%;
+  
+
+
+  &:hover {
+    color: $textColor;
+  }
+}
+.mainFooter {
+  margin-top: 29.2rem; 
+}
