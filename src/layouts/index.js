@@ -3,7 +3,6 @@ import Helmet from 'react-helmet';
 
 import Header from '../components/Header';
 import './index.scss';
-import 'antd/dist/antd.css';
 
 const TemplateWrapper = () => (
   <div>
