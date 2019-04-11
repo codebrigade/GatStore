@@ -1,0 +1,13 @@
+@import '../../styles/global.scss';
+
+.cart {
+  h1 {
+    text-align: center;
+  }
+}
+.mainCartItemDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
